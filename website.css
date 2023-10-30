@@ -1,0 +1,126 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  width: 100%;
+  height: 100vh; 
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(/pics/finalbackground.png);
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+.navbar {
+  width: 85%;
+  display: flex;
+  padding: 35px 0;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+
+}
+.navbar ul li {
+  position: relative;
+  display: inline-block;
+  margin: 12px;
+  padding: 15px 35px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #adb4bf;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #adb4bf;
+  border-radius: 25px;
+  box-shadow: inset 0 0 0 1 #adb4bf;
+ 
+  
+
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+
+}
+.navbar ul li:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #adb4bf;
+}
+
+.navbar ul li:active {
+  transform: scale(0.9);
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+  font-family: Poppins;
+}
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  transform: rotate(-50deg);
+  filter: brightness(0.8);
+  
+}
+
+.learn-more{
+  position: relative;
+  border: 3px ridge #adb4bf;
+  outline: none;
+  background-color: transparent;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  list-style: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: poppins;
+  display: inline-block;
+  margin-top: 20px;
+}
+.learn-more a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.learn-more:hover{
+  content: "";
+  transform-origin: center;
+  box-shadow: inset 0px 0px 25px #8eb8e7;
+  background-color: #413f3f;
+  transition: 0.5s;
+}
+ 
+
+ 
+.learn-more:active {
+  transform: scale(0.9);
+}
+
